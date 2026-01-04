@@ -214,8 +214,8 @@ public class HospitalManagementSystem {
 	 */
 	public static void main(String[] args) {
 		//Default constructor
-		Doctor d = new Doctor("D001", "Dipesh Chhetri", 21, "Male", "Kathmandu", 97494, "D334", "Neurology");
-		Patient p = new Patient("P001", "Divyani Khatri", 19, "Female", "Kathmandu", 9874560, "D333");
+		Doctor d = new Doctor("D001", "Hari", 35, "Male", "Kathmandu", 12345678, "D334", "Neurology");
+		Patient p = new Patient("P001", "Ram", 47, "Male", "Kathmandu", 100, "D333");
 		
 		d.viewPersonalDetails();
 		p.viewPersonalDetails();
